@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+
+
+<body>
+    <div class="container flex bg-black">
+
+
+        <div class="left ">
+            <div class="close">
+                <img width="30" class="invert" src="icon\close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <ul>
+                    <li><img src="icon\logo.svg" alt="spotify">Spotify</li>
+                    <li><img src="icon\home.svg" alt="home">Home</li>
+                    <li><img src="icon\search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1">
+                <div class="heading">
+                    <img class="invert" src="icon\playlist.svg" alt="">
+                    <h2>Your Library</h2>
+                    <div class="sign"><img class="invert" src="icon\plus.svg" alt=""></div>
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety
+                                &amp;PrivacyCenter</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded ">
+            <div class="header ">
+                <div class="nav">
+                    <div class="hamburgerCont">
+                        <img width="40" class="invert hamburger" src="icon\hamburger.svg" alt="">
+
+                        <img class="invert" src="icon\smaller.svg">
+                        <img class="invert" src="icon\greater.svg">
+                    </div>
+
+
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Login</button>
+
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="playButton">
+                            <div
+                                style="width: 25px;height: 25px;background-color: #00FF00;border-radius: 50%;padding: 7px;display: flex;align-items: center;justify-content: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" height="30"
+                                    fill="black" style="transform: translateX(5px);">
+                                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000023f7b39872b6bb36288c1a52c" alt="">
+                        <h2>Hot Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <div class="playButton">
+                            <div
+                                style="width: 25px;height: 25px;background-color: #00FF00;border-radius: 50%;padding: 7px;display: flex;align-items: center;justify-content: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" height="30"
+                                    fill="black" style="transform: translateX(5px);">
+                                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000026f0029b347a105429024120e" alt="">
+                        <h2>Punjabi Hits</h2>
+                        <p>Catch the hottest Punjabi tracks. Cover - AP Dhillon</p>
+                    </div>
+                    <div class="card">
+                        <div class="playButton">
+                            <div
+                                style="width: 25px;height: 25px;background-color: #00FF00;border-radius: 50%;padding: 7px;display: flex;align-items: center;justify-content: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" height="30"
+                                    fill="black" style="transform: translateX(5px);">
+                                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000023813c40c7d47a71d3628469f" alt="">
+                        <h2> Telugu Hits</h2>
+                        <p>Tune in to the Hottest Tracks of Tollywood! Cover : Sankranthiki Vasthunam!</p>
+                    </div>
+                    <div class="card">
+                        <div class="playButton">
+                            <div
+                                style="width: 25px;height: 25px;background-color: #00FF00;border-radius: 50%;padding: 7px;display: flex;align-items: center;justify-content: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" height="30"
+                                    fill="black" style="transform: translateX(5px);">
+                                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000023f7b39872b6bb36288c1a52c" alt="">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <div class="playButton">
+                            <div
+                                style="width: 25px;height: 25px;background-color: #00FF00;border-radius: 50%;padding: 7px;display: flex;align-items: center;justify-content: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" height="30"
+                                    fill="black" style="transform: translateX(5px);">
+                                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002f5452480709e81e10e6847be" alt="">
+                        <h2>Trending Hits</h2>
+                        <p>Every song that's Trending NOW from Malayalam! Cover: Rifle Club!</p>
+                    </div>
+                    <div class="card">
+                        <div class="playButton">
+                            <div
+                                style="width: 25px;height: 25px;background-color: #00FF00;border-radius: 50%;padding: 7px;display: flex;align-items: center;justify-content: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" height="30"
+                                    fill="black" style="transform: translateX(5px);">
+                                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000024badca6c4f76038e4acb55a9" alt="">
+                        <h2>Public Hits</h2>
+                        <p>Ultimate 101 Punjabi Hits with Guru Randhawa!</p>
+                    </div>
+                </div>
+
+                <div class="playBar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+
+
+                        <div class="songinfo"></div>
+                        <div class="songbutton">
+                            <img width="35" id="previous" src="icon\previous.svg" alt="">
+                            <img width="35" id="play" src="icon\play.svg" alt="">
+                            <img width="35" id="next" src="icon\next.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime">
+
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="icon\volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
